@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/src/styles/global.css">
+    <link rel="stylesheet" href="/src/styles/formulario.css">
+    <title>Login | Com HTML CSS e JavaScript</title>
+</head>
+<body>
+    <main class="main">
+        <form action="" class="form-container">
+            <h2 class="name-title">
+                Sign-in
+            </h2>
+
+            <fieldset class="field">
+                <label for="user" class="box-input">
+                    <i class="fa-solid fa-user icon"></i>
+                    <input type="email" name="user" id="user" placeholder="UserName" class="inp">
+                </label>
+
+                <label for="password" class="box-input">
+                    <i class="fa-solid fa-key icon"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" class="inp">
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Sign In" class="bt-login">
+            <div class="out-senha">
+                <p class="fol-senha">
+                    <span>Not a member?</span>
+                    <a href="/src/pages/login.html">Sign up now</a>
+                </p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

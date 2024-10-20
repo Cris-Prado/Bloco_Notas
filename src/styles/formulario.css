@@ -1,0 +1,98 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    width: 100%;
+    background-color: var(--baseColor);
+    color: var(--text-primary);
+}
+
+.form-container{
+    padding: 0 15px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-input{
+    background-color: #434a52;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    background-color: black;
+    border-radius: 5px 0 0 5px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 60px;
+}
+
+.inp{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-indent: 0.7rem;
+    border-radius: 0 5px 5px 0;
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.inp::placeholder{
+    color: white;
+}
+
+.inp:focus{
+    outline: none;
+}
+
+
+.bt-login{
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+    background-color: #ea4c88;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bt-login:hover{
+    box-shadow: 17px 12px 40px 2px black;
+}
+
+.fol-senha{
+    font-family: 'Poppins', sans-serif;
+}
