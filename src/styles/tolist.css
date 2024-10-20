@@ -1,0 +1,102 @@
+.main{
+    display: flex;
+    align-items: center;
+    min-height: 100dvh;
+    width: 100%;
+    background-color: var(--baseColor);
+    flex-direction: column;
+}
+
+.name-title{
+    margin-top: 100px;
+    color: white;
+}
+
+.content{
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.inp{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    border: none;
+    text-indent: 0.7rem;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inp::placeholder{
+    color: #babbbbd3;
+}
+
+.inp{
+    outline: none;
+}
+
+.ad-btn{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: rgb(5, 3, 32);
+    color: white;
+}
+
+.icon-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.busca-list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 15px 0;
+}
+
+.item{
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-indent: 0.7rem;
+    margin: 10px 0;
+
+}
+
+.ico-delete{
+    height: 100%;
+    width: 50px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background: #51DF70 !important;
+    color: #00891E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
